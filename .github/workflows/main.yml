@@ -12,4 +12,6 @@ jobs:
         with:
           MY_NAME: "Khayar"
       - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"      
+      #- run: echo "The time was ${{ steps.hello.outputs.time }}"  
+      - run: java --version
+        
