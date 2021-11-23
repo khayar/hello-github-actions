@@ -6,12 +6,5 @@ jobs:
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
-      - run: java --version
-      - uses: actions/checkout@v1
-      - uses: ./action-a
-        id: hello
-        with:
-          MY_NAME: "Khayar"
-      - name: Get the output time
-      #- run: echo "The time was ${{ steps.hello.outputs.time }}" 
+      - run: java --version 
         
